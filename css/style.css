@@ -47,6 +47,7 @@ body {
     display: flex;
     justify-content: space-around;
     gap: 10px;
+    
     list-style: none;
 }
 
@@ -69,7 +70,9 @@ body {
 .items__nav{
     background-color: #4b003b;
     border: var(--color4) solid;
-    width: 100px;
+    width: 98px;
+    height: 28px;
+    padding-top: 15px;
     border-radius: 20px;
     text-align: center;
 }
@@ -78,55 +81,3 @@ body {
   background: #92467c;
   opacity: 0,5;
 }
-
-
-.contenedor__principal{
- 
-}
-
-
-.subsection{
-    display: block;
-    font-size: 24px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-.contenedor__div{
-}
-
-.contenedor__titulo{
-    bottom: 0%;
-    height: 75px;
-    width: 100%;
-}
-
-
-.redes__sociales{
-    display: flex;
-    gap: 10px;
-    list-style: none;
-
-}
-
-.social__item{
-    display: flex;
-    justify-content: space-around;
-}
-
-.social__item{
-    list-style: none;
-} 
-
- .profile{
-    display: flex;
-    width: 200px;
-    height: 200px;
-    justify-content: end;
-    flex-wrap: wrap;
-    
-}
-
-img{
-    overflow-clip-margin: content-box;
-    overflow: clip;
-} 
