@@ -1,0 +1,25 @@
+.about{
+    background-color: var(--color2);
+    padding: 20px;
+    color: var(--color3);
+    box-shadow:0 0 0 15px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    font-family: var(--texto);
+    font-size: 25px;
+}
+
+
+.title__abaut h1{
+    text-align: center;
+    font-size: 2.8em;
+    font-family: var(--texto);
+    color: white;
+}
+
+.text__about{
+    padding: 20px;
+    font-family: var(--texto);
+    font-size: 25px;
+    color: white;
+}
