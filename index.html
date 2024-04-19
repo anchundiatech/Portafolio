@@ -1,214 +1,145 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fontawesome.com/icons/github?f=brands&s=solid">
-    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="stylesheet" href="css/main.css">
-    <title>Alejandro Anchundia | Portafolio</title>
-
-
-
-
+    <title>Alejandro Anchundia  | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-    <!--Seccion del Header  -->
-    <section class="menu">
-        <header class="container-fluid">
-            <h1 class="logo-text"><a href="index.html">ALEJANDRO ANCHUNDIA</a></h1>
+
+
+    <!--header-->
+
+        <header>
+            <section class="nav__container">
+                <h1 class="name__title">Alejandro Anchundia</h1>
+                <nav class="nav__principal">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#aboutMy">Sobre mi</a><!--<img src="img/person.png" alt="">--></li>
+                        <li class="nav__item"><a href="#skills">Skills</a><!--<img src="img/person_raised_hand_.png" alt="">--></li>
+                        <li class="nav__item"><a href="#hobbies">Hobbies</a><!--<img src="img/rocket_launch.png" alt="">--></li>
+                        <li class="nav__item"><a href="#academic">Formación</a><!--<img src="img/formation.png" alt="">--></li>
+                        <li class="nav__item"><a href="#projects">Proyectos</a><!--<img src="img/projects.png" alt="">--></li>
+                        <li class="nav__item"><a href="#contact_form">Contacto</a><!--<img src="img/info.png" alt="">--></li>
+                    </ul>
+
+                </nav>
+
+            </section>
         </header>
 
-        <!-- Seccion de la Barra de Navegacion-->
-        <div class="nav__bg">
-            <nav>
-                <ul class="navegacion__principal">
-                    <li class="items__nav"><a href="#about">SOBRE MÍ</a></li>
-                    <li class="items__nav"><a href="#skills">SKILLS</a></li>
-                    <li class="items__nav"><a href="#Hobbies">HOBBIES</a></li>
-                    <li class="items__nav"><a href="">FORMACION</a> </li>
-                    <li class="items__nav"><a href="#projects">PROYECTOS</a></li>
-                    <li class="items__nav"><a href="#contact" ">alejandroanchundiayela@gmail.com</a></li>
-                </ul>
-            </nav>
-        </div>
-    </section>
 
-
-    <main>
-        <!--- Sección Sobre Mi -->
-        <section class=" contenedor__principal">
-                            <div class="contenedor__div">
-                                <p class="bg__bio">Hola, soy Alejandro y actualmente estoy sumergiéndome en el mundo del
-                                    desarrollo web</p>
-                                <p class="subsection">y actualmente estoy explorando el fascinante mundo del desarrollo
-                                    web través del proyecto Oracle ONE en Alura Latam.</p>
-                                <div class="contenedor__titulo">
-                                    <ul class="redes__sociales">
-                                        <li class="social__item"><i class="fa-brands fa-github"></i><a
-                                                href="https://github.com/anchundiatech" target="_blank">Github</a></li>
-                                        <li class="social__item"><i class="fa-brands fa-instagram"></i><a
-                                                href="https://www.instagram.com/anchudiatech/"
-                                                target="_blank">Instagram</a></li>
-                                        <li class="social__item"><i class="fa-brands fa-linkedin"></i><a
-                                                href="https://www.linkedin.com/in/alejandro-anchundia/"
-                                                target="_blank">Linkedin</a></li>
-                                        <li class="social__item"><i class="fa-regular fa-file"></i><a
-                                                href="https://drive.google.com/file/d/1GhhPLVWkRz5p8JN4qBSi6tFnw6baw3ts/view?usp=sharing"
-                                                target="_blank">curriculum</a></li>
-                                    </ul>
-
-                                </div>
-
-                            </div>
-    </section>
-
-    <section class="about">
-        <div class="title__abaut" id="#about">
-            <h1>Sobre mi</h1>
-
-            <p class="text__about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta veniam eum
-                voluptatibus aliquam, soluta sint provident, ipsa perferendis, iusto neque dolorem quo perspiciatis
-                voluptatem! Temporibus earum enim fugiat quod dolor.
-                Voluptatibus, non sunt, reprehenderit pariatur beatae neque sint error, quae inventore tempore
-                praesentium vel placeat consequatur totam qui! Cumque nostrum beatae dolore reiciendis odit, modi
-                voluptatibus et veritatis sequi laudantium?
-                Inventore corporis corrupti nisi officiis perferendis id. At illo est qui dolorum in? Fuga accusamus
-                dignissimos rem libero et!</p>
-        </div>
-    </section>
-
-    <!---Skills--->
-
-    <section class="skills">
-        <div class=" container__skills" id="#skills>
-            <h1>Skills</h1>
-            <ul class=" skills__list">
-            <li class="skills__item">HTML</li>
-            <li class="skills__item">CSS</li>
-            <li class="skills__item">JAVASCRIPT</li>
-            <li class="skills__item">REACT</li>
+   <main>
+    <!--ABOUT  MY-->
+    <section id="aboutMy" class="about_container">
+        <div class="container_about">
+            <div class="container row">
+                <div class="container_text">
+                <h2>Hola, mi nombre es Alejandro Anchundia</h2>
+                <p>Soy formado en la carreda de Desarrollo de software, actualmente me encuentro participanto en el programa  <strong>Oracle ONE en Alura Latam</strong> </p>
+                </div>
+                <div class="img_container">
+                    <img src="img/me.png" class="about__img">
+                </div>
+            </div>
+            <ul class="container_logos">
+                <li class="item_logos"><a href="https://github.com/anchundiatech" target="_blank"><img src="img/github.png" alt=""></a></li>
+                <li class="item_logos"><a href="https://www.instagram.com/anchudiatec/" target="_blank"><img src="img/Instagram.png" alt=""></a></li>
+                <li class="item_logos"><a href="https://www.linkedin.com/in/alejandro-anchundia" target="_blank"><img src="img/Linkedin.png" alt=""></a></li>
+                <li class="item_logos"><a href="cv/Alejandro_Armando_Anchundia_Yela_-_.pdf" target="_blank"><img src="img/Cv.png" alt=""></a></li>
             </ul>
         </div>
     </section>
-    <!---hobbies-->
-    <section class="hobbies" id="#Hobbies">
-        <h1>Hobbies</h1>
-        <ul class="hobbies__list">
-            <li class="hobbies__item">Leer</li>
-            <li class="hobbies__item">Cocinar</li>
-            <li class="hobbies__item">Jugar</li>
-            <li class="hobbies__item">Dormir</li>
-        </ul>
-    </section>
 
 
-
-    <!--Seccion de formacion academica-->
-
-    <section class="formacion__academica">
-        <h1>Formación Académica</h1>
-        <ul class="education__list">
-            <li class="education__item">
-                <span class="year"></span>
-            </li>
-            <li class="education__item">
-                <span class="year"></span>
-            </li>
-
-        </ul>
-    </section>
-
-    <!-- Seccion de proyectos -->
-    <section class="projects" id="#Projects">
-        <h1>Proyectos</h1>
-        <div class="cards__project">
-
-            <article class="card">
-                <img src="" alt="Imagen del proyecto " />
-                <h2>Juego Secreto con js</h2>
-                <div class="description">
-                    <p>Un pequeño sueño realizado con html css y javascript</p>
-                </div>
-                <a href="">Ver más</a>
-            </article>
-
-            <article class="card__2">
-                <img src="" alt="Imagen del proyecto " />
-                <h2>Juego Secreto con js</h2>
-                <div class="description">
-                    <p>Un pequeño sueño realizado con html css y javascript</p>
-                </div>
-                <a href="">Ver más</a>
-            </article>
-
-            <article class="card">
-                <img src="" alt="Imagen del proyecto" />
-                <h2>Juego Secreto con js</h2>
-                <div class="description">
-                    <p>Un pequeño sueño realizado con html css y javascript</p>
-                </div>
-                <a href="">Ver más</a>
-            </article>
-
+    <!--SKILLS-->
+    <section class="container_skills" id="skills">
+        <div class="container row">
+            <div class="text__skills">
+                <h2>skills</h2>
+                <ul class="skills__container__list">
+                    <li class="skills__items"> <img src="img/html.png" alt="Logo html"></li>
+                    <li class="skills__items">  <img  src="img/js.png" alt="Logo css"> </li>
+                    <li class="skills__items">  <img  src="img/css.png" alt="Logo javascript"></li>
+                    <li class="skills__items">  <img  src="img/wordpress.png" alt="Logo worpress"></li>
+                    <li class="skills__items"> <img  src="img/git.png" alt="Logo github"></li>
+                </ul>
+            </div>
         </div>
     </section>
 
-    <!--seccion de contacto-->
-<section class="contenedor__formulario" ">
-            <h1>Contacto</h1>
-            <form action=" https://formspree.io/f/xwkgwalg" method="post" id="#contact>
-
-                <h2>Contáctenos llenando todos los campos</h2>
-
-
-  <div class=" img__contact">
-    <img src="img/contact.png" alt="figura de contactos">
-    </div>
-    <div>
-        <label>Nombre:</label>
-        <input type="text" name="Nombre" placeholder="Tu nombre" class="input-padron" required>
-    </div>
-
-    <div>
-        <label>Teléfono:</label>
-        <input type="tel" name="telefono" class="input-padron" required placeholder="Tu telefono">
-
-    </div>
-
-    <div>
-        <label>Correo:</label>
-        <input type="email" name="email" class="input-padron" placeholder="Tu email">
-    </div>
-    <div>
-        <label>Mensaje:</label>
-        <textarea name="Mensaje" class="input-padron" required id="" cols="30" rows="10"></textarea>
-    </div>
-    <div>
-        <input type="submit" class="enviar" value="Enviar formulario">
-    </div>
-
-    </form>
+    <!--HOBBIES-->
+    <section class="hobbies" id="hobbies">
+        <div class="container__hobbies">
+            <div class="text__hobbies">
+                <h2 class="hobbies__title">Hobbies</h2>
+            </div>
+            <div class="hobbies__img--container">
+                <img class="img__hobbies" src="img/leer.svg" alt="Logo html">
+                <img class="img__hobbies" src="img/cocinar.svg" alt="Logo css">
+                <img class="img__hobbies" src="img/programar.svg" alt="Logo javascript">
+            </div>
+        </div>
     </section>
-    </main>
+
+    <!--FORMACION-->
+    <section class="formacion" id="formacion">
+        <div class="container__formacion">
+            <div class="text__formacion">
+                <h2 class="formacion__title">Formacion Academica</h2>
+            </div>
+            <div class="formacion__img--container">
+                <img class="img__formacion" src="img/udemy.svg" alt="Logo html">
+                <img class="img__formacion" src="img/udemy.svg" alt="Logo css">
+                <img class="img__formacion" src="img/udemy.svg" alt="Logo javascript">
+            </div>
+        </div>
+    </section>
+
+    <!--PROYECTOS-->
+    <section class="proyectos" id="proyectos">
+        <div class="container__proyectos">
+            <div class="text__proyectos">
+                <h2 class="proyectos__title">Proyectos</h2>
+            </div>
+            <div class="proyectos__img--container">
+                <img class="img__proyectos" src="img/udemy.svg" alt="Logo html">
+                <img class="img__proyectos" src="img/udemy.svg" alt="Logo css">
+                <img class="img__proyectos" src="img/udemy.svg" alt="Logo javascript">
+            </div>
+        </div>
+    </section>
+
+    <!--CONTACTO-->
+    <section class="contacto" id="contact">
+        <div class="container__contacto">
+            <div class="text__contacto">
+                <h2 class="contacto__title">Contacto</h2>
+            </div>
+            <form action="">
+                <label class="input__contact" for="nombre">Nombre:</label>
+                <input  class="input__contact" type="text"  name="nombre" placeholder="Nombre">
+                <label class="input__contact" for="email">Email:</label>
+                <input class="input__contact"  type="email"  name="email" placeholder="Email">
+                <label  class="input__contact" for="consulta">Consulta:</label>
+                <textarea name="consulta" id="" cols="30" rows="10" placeholder="Deja tu consulta"></textarea>
+                <input class="btn__contact" type="submit" value="Enviar">
+            </form>
+            <div class="contact__img">
+                <img src="img/contact.png" alt="Logo whatsapp">
+            </div>
+        </div>
+
+   </section>
+
+   </main>
 
 
-    <!--rodapie-->
 
     <footer class="rodapie">
-        <p>&copy;Desarrollado por Alejandro Anchundia</p>
+        <p>© 2024 Alejandro Anchundia</p>
     </footer>
 
-    <!-- 
-    <script src="/js/main.js"></script>
- -->
-
-
-
-
 </body>
-
 </html>
