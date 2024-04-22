@@ -444,9 +444,19 @@ main{
     transition: 1s;
 }
 
+.proyect__item img{
+    margin: 0 1em;
+    width: 30%;
+    height: 40%;
+    border-radius: 15%;
+    transition: 1s;
+}
+
 .proyect__item img:hover:first-child{
     scale: 1.05;
 }
+
+
 
 .proyect__item__container{
     display: flex;
@@ -687,7 +697,7 @@ footer{
 
 
 
-/*-----------------------RESPONSIVE--------------------------------------*/
+/*-----------------------RESPONSIVE DESIGN PARA MOBILES--------------------------------------*/
 
 @media (min-width: 320px) and (max-width: 599px){
 
@@ -893,6 +903,13 @@ footer{
         margin: 5px auto;
     }
 
+    .proyect__item__img{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        margin-bottom: 1em;
+    }
+
 
     /*-----------CONTACT SECTION---------------*/
 
@@ -943,9 +960,6 @@ footer{
 
 
 /*------------------RESPONSIVE PARA TABLET------------------*/
-
-
-
 @media(min-width:600px) and (max-width:1024px){
 
  /*-----------HEADER SECTION---------------*/
