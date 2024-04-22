@@ -444,13 +444,7 @@ main{
     transition: 1s;
 }
 
-.proyect__item img{
-    margin: 0 1em;
-    width: 30%;
-    height: 40%;
-    border-radius: 15%;
-    transition: 1s;
-}
+
 
 .proyect__item img:hover:first-child{
     scale: 1.05;
@@ -495,10 +489,10 @@ main{
     filter: invert(88%) sepia(78%) saturate(771%) hue-rotate(339deg) brightness(100%) contrast(94%);
 }
 
-.experience_item img:nth-child(1){
-    border-radius: 20% 10% / 10% 20%;
+.proyect__item img:nth-child(1){
+    border-radius: 20% ;
     width: auto;
-    height: 400px;
+    height: 230px;
     margin-right: 1.5em;
     box-shadow: 2px 3px 20px #efaaef;
 
@@ -875,6 +869,7 @@ footer{
         flex-direction: column;
     }
 
+    
     .proyect__item:nth-child(1) img{
         width: 30%;
         height: auto;
