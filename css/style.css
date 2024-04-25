@@ -181,7 +181,7 @@ main{
 
 
 .item_logos:nth-child(1):hover{
-    background-color: #efaaef;
+    background-color: #ebc8eb;
     scale: 1.2;
     box-shadow: 1px 2px 10px #efaaef;
 }
@@ -427,6 +427,11 @@ main{
     border-radius: 50px;
 }
 
+.proyect__item__img{
+    width: 100%;
+    
+}
+
 .proyect__container__list:nth-child(2),
 .proyect__container__list:nth-child(6),
 .proyect__container__list:nth-child(10),
@@ -444,13 +449,9 @@ main{
     transition: 1s;
 }
 
-
-
 .proyect__item img:hover:first-child{
     scale: 1.05;
 }
-
-
 
 .proyect__item__container{
     display: flex;
@@ -489,10 +490,10 @@ main{
     filter: invert(88%) sepia(78%) saturate(771%) hue-rotate(339deg) brightness(100%) contrast(94%);
 }
 
-.proyect__item img:nth-child(1){
-    border-radius: 20% ;
+.experience_item img:nth-child(1){
+    border-radius: 20% 10% / 10% 20%;
     width: auto;
-    height: 230px;
+    height: 400px;
     margin-right: 1.5em;
     box-shadow: 2px 3px 20px #efaaef;
 
@@ -691,7 +692,7 @@ footer{
 
 
 
-/*-----------------------RESPONSIVE DESIGN PARA MOBILES--------------------------------------*/
+/*-----------------------RESPONSIVE DESIGN --------------------------------------*/
 
 @media (min-width: 320px) and (max-width: 599px){
 
@@ -869,7 +870,6 @@ footer{
         flex-direction: column;
     }
 
-    
     .proyect__item:nth-child(1) img{
         width: 30%;
         height: auto;
@@ -896,13 +896,6 @@ footer{
         font-size: 1rem;
         width: 60%;
         margin: 5px auto;
-    }
-
-    .proyect__item__img{
-        width: 100%;
-        height: auto;
-        margin: 0 auto;
-        margin-bottom: 1em;
     }
 
 
