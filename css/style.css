@@ -20,7 +20,7 @@
 body{
     font-family: 'Kaushan Script', cursive;
     font-size: 1em;
-    background-color: linear-gradient(to right, var(--color5), var(--color10));
+    background-color: linear-gradient(to right, var(--color5), var(#1220e7));
 }
 
 
