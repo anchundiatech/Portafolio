@@ -1,7 +1,7 @@
 # Portfolio Personal - Alejandro Anchundia
 
 ## 📝 Descripción
-Portfolio personal desarrollado en el programa Oracle Netx education  con HTML, CSS y JavaScript que muestra mis proyectos y habilidades como desarrollador web.
+Portfolio personal desarrollado en el programa Oracle Next education  con HTML, CSS y JavaScript que muestra mis proyectos y habilidades como desarrollador web.
 
 ## 🚀 Características
 - Diseño responsivo
