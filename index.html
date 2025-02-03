@@ -8,15 +8,6 @@
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-34ZB9W7WZD"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-34ZB9W7WZD');
-</script>
 
 <body>
 
@@ -47,6 +38,7 @@
 
 
   <main>
+
     <!--ABOUT  MY-->
     <section id="aboutMy" class="about_container">
       <div class="container_about">
@@ -76,13 +68,14 @@
 
     <!--SKILLS-->
     <section class="container_skills" id="skills">
+      <h2>skills</h2>
       <div class="container row">
         <div class="text__skills">
-          <h2>skills</h2>
+
           <ul class="skills__container__list">
-            <li class="skills__items"> <img src="img/html.png" alt="Logo html">Html 5</li>
-            <li class="skills__items"> <img src="img/js.png" alt="Logo css">JavaScript </li>
-            <li class="skills__items"> <img src="img/css.png" alt="Logo javascript">Css 3</li>
+            <li class="skills__items"> <img src="img/html.png" alt="Logo html"> <p id="text">Html 5</p></li>
+            <li class="skills__items"> <img src="img/js.png" alt="Logo css"> <p id="text">JavaScript </p></li>
+            <li class="skills__items"> <img src="img/css.png" alt="Logo javascript"> <p id="text">Css 3</p></li>
           </ul>
         </div>
       </div>
@@ -90,37 +83,36 @@
 
     <!--HOBBIES-->
     <section class="container__hobbies" id="hobbies">
-      <div class="container row">
-        <div class="text__hobbies">
-          <h2>Hobbies</h2>
-
-          <ul class="hobbies__list__container">
-            <li class="img__hobbies"><img src="img/runner.png" alt="">Correr</li>
-            <li class="img__hobbies"> <img src="img/basket.png" alt="">Practicar <br>Baloncesto</li>
-            <li class="img__hobbies"><img src="img/read.png" alt="">Leer</li>
-            <li class="img__hobbies"><img src="img/student.png" alt="">Estudiar</li>
-          </ul>
+            <h2 >Hobbies</h2>
+      <div class="container__row">
+       <div class="hobbies__list__container">
+          <li class="img__hobbies"><img src="img/runner.png" alt=""> <p id="text">Correr</p></li>
+          <li class="img__hobbies"> <img src="img/basket.png" alt=""> <p id="text">Practicar <br>Baloncesto</p></li>
+          <li class="img__hobbies"><img src="img/read.png" alt=""> <p id="text">Leer</p></li>
+          <li class="img__hobbies"><img src="img/student.png" alt=""> <p id="text">Estudiar</p></li>
         </div>
       </div>
     </section>
 
     <!--FORMACION ACADEMICA-->
-    <section class="formacion__container" id="formacion">
-      <div class="container__formacion">
-        <div class="text__formacion">
-
-          <h2>Formacion Academica</h2>
-
-          <ul class="formacion__container__list">
-            <li class="formacion_items"> ISTL LIMON<img src="img/ISTL.png" alt="">DESARROLLO DE SOFTWARE
-              <br><br>Jun.2020 -> Oct.2023</li>
-              <br>
-            <li class="formacion_items">Alura Latam<img src="img/aluraLatam.png" alt=""> Oracle Next
-              Education<br><br>2024</li>
-          </ul>
+    <aside class="formacion__container" id="formacion">
+      <h2>Formación Académica</h2>
+      <div class="container row">
+        <div class="col-md-6">
+          <h3>Grado en Ingeniería Informática</h3>
+          <img src="img/ISTL.png" alt="Logo del isntituto superior tecnologico limon">
+          <p>2019 - 2023</p>
+          <p>Universidad de Granada</p>
+        </div>
+        <div class="col-md-6">
+          <h3>Grado en Ingeniería Informática</h3>
+          <img src="img/ISTL.png" alt="Logo del isntituto superior tecnologico limon">
+          <p>2019 - 2023</p>
+          <p>Universidad de Granada</p>
         </div>
       </div>
-    </section>
+    </aside>
+
 
     <!--proyectos --->
     <section id="projects" class="container__proyect">
@@ -131,7 +123,7 @@
           <!-- Alura Latam - AluraPlay -->
           <ul class="proyect__container__list">
             <li class="proyect__item">
-              <!-- <img class="proyect__item__img" src="img/alura-play.png" alt=""> -->
+              <img class="proyect__item__img" src="img/alura-play.png" alt="">
               <div class="proyect__item__container">
                 <h3 class="proyect__item__title">AluraPlay</h3>
                 <p>Proyecto final de curso CSS_ Flexbox y layouts responsivos de la mano de Alura Latam.</p>
@@ -151,7 +143,7 @@
           <!-- Alura Latam - Encriptador -->
           <ul class="proyect__container__list">
             <li class="proyect__item">
-              <!-- <img class="proyect__item__img" src="" alt=""> -->
+              <img class="proyect__item__img" src="img/encrypt.png" alt=""> -->
               <div class="proyect__item__container">
                 <h3 class="proyect__item__title">Challenge Encriptador</h3>
                 <p>Encriptar o desencriptar un mensaje dado.</p>
@@ -172,7 +164,7 @@
           <!-- Alura Latam Juego numero secreto -->
           <ul class="proyect__container__list">
             <li class="proyect__item">
-              <!-- <img class="proyect__item__img" src="img/juego-secreto.png" alt=""> -->
+               <img class="proyect__item__img" src="img/juego-secreto.png" alt="">
               <div class="proyect__item__container">
                 <h3 class="proyect__item__title">Juego Numero Secreto</h3>
                 <p>Proyecto realizado en la formación principiante en programación con JavaScript Alura Latam, el cual consistia en
@@ -192,7 +184,7 @@
           <!-- Alura Latam - Barberia -->
           <ul class="proyect__container__list">
             <li class="proyect__item">
-              <!-- <img class="proyect__item__img" src="img/baberia.png" alt="">  -->
+               <img class="proyect__item__img" src="img/baberia.png" alt="">
               <div class="proyect__item__container">
                 <h3 class="proyect__item__title">Barberia Alura</h3>
                 <p>Proyecto realizado en la formación principiante en programación de Alura Latam, el cual consistia en
