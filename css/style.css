@@ -7,8 +7,14 @@
 body{
     font-family: 'Kaushan Script', cursive;
     font-size: 1em;
+<<<<<<< HEAD
     background: radial-gradient(circle at 0% 0%, #1b2735, #090a0f, #002b36);
 
+||||||| 038dc2e
+    background-color: linear-gradient(to right, var(--color5), var(--color10));
+=======
+    background-color: linear-gradient(to right, var(--color5), var(#1220e7));
+>>>>>>> 75e69b5c45ffcc9760a41c1b67652f8da5088b52
 }
 
 
