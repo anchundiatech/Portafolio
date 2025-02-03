@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Alejandro Anchundia | Portfolio</title>
+  <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -18,15 +19,15 @@
       <h1 class="name__title">Alejandro Anchundia</h1>
       <nav class="nav__principal">
         <ul class="nav__list">
-          <li class="nav__item"><a href="#aboutMy">Sobre mi</a><!--<img src="img/person.png" alt="">--></li>
-          <li class="nav__item"><a href="#skills">Skills</a><!--<img src="img/person_raised_hand_.png" alt="">--></li>
-          <li class="nav__item"><a href="#hobbies">Hobbies</a><!--<img src="img/rocket_launch.png" alt="">-->
+          <li class="nav__item"><a href="#aboutMy">Sobre mi</a></li>
+          <li class="nav__item"><a href="#skills">Skills</a></li>
+          <li class="nav__item"><a href="#hobbies">Hobbies</a>
           </li>
-          <li class="nav__item"><a href="#academic">Formación</a><!--<img src="img/formation.png" alt="">-->
+          <li class="nav__item"><a href="#academic">Formación</a>
           </li>
-          <li class="nav__item"><a href="#projects">Proyectos</a><!--<img src="img/projects.png" alt="">-->
+          <li class="nav__item"><a href="#projects">Proyectos</a>
           </li>
-          <li class="nav__item"><a href="#contact">Contacto</a><!--<img src="img/info.png" alt="">-->
+          <li class="nav__item"><a href="#contact">Contacto</a>
           </li>
         </ul>
 
@@ -37,6 +38,7 @@
 
 
   <main>
+
     <!--ABOUT  MY-->
     <section id="aboutMy" class="about_container">
       <div class="container_about">
@@ -51,7 +53,7 @@
           </div>
         </div>
         <ul class="container_logos">
-          <li class="item_logos"><a href="https://github.com/anchundiatech" target="_blank"><img src="img/github.png"
+          <li class="item_logos"><a href="https://github.com/anchundiatech" target="_blank"><img src="img/Github.png"
                 alt=""></a></li>
           <li class="item_logos"><a href="https://www.instagram.com/anchudiatec/" target="_blank"><img
                 src="img/Instagram.png" alt=""></a></li>
@@ -66,13 +68,14 @@
 
     <!--SKILLS-->
     <section class="container_skills" id="skills">
+      <h2>skills</h2>
       <div class="container row">
         <div class="text__skills">
-          <h2>skills</h2>
+
           <ul class="skills__container__list">
-            <li class="skills__items"> <img src="img/html.png" alt="Logo html">Html 5</li>
-            <li class="skills__items"> <img src="img/js.png" alt="Logo css">JavaScript </li>
-            <li class="skills__items"> <img src="img/css.png" alt="Logo javascript">Css 3</li>
+            <li class="skills__items"> <img src="img/html.png" alt="Logo html"> <p id="text">Html 5</p></li>
+            <li class="skills__items"> <img src="img/js.png" alt="Logo css"> <p id="text">JavaScript </p></li>
+            <li class="skills__items"> <img src="img/css.png" alt="Logo javascript"> <p id="text">Css 3</p></li>
           </ul>
         </div>
       </div>
@@ -80,36 +83,36 @@
 
     <!--HOBBIES-->
     <section class="container__hobbies" id="hobbies">
-      <div class="container row">
-        <div class="text__hobbies">
-          <h2>Hobbies</h2>
-
-          <ul class="hobbies__img__container">
-            <li class="img__hobbies"><img src="img/runner.png" alt="">Correr</li>
-            <li class="img__hobbies"> <img src="img/basket.png" alt="">Practicar <br>Baloncesto</li>
-            <li class="img__hobbies"><img src="img/read.png" alt="">Leer</li>
-            <li class="img__hobbies"><img src="img/student.png" alt="">Estudiar</li>
-          </ul>
+            <h2 >Hobbies</h2>
+      <div class="container__row">
+       <div class="hobbies__list__container">
+          <li class="img__hobbies"><img src="img/runner.png" alt=""> <p id="text">Correr</p></li>
+          <li class="img__hobbies"> <img src="img/basket.png" alt=""> <p id="text">Practicar <br>Baloncesto</p></li>
+          <li class="img__hobbies"><img src="img/read.png" alt=""> <p id="text">Leer</p></li>
+          <li class="img__hobbies"><img src="img/student.png" alt=""> <p id="text">Estudiar</p></li>
         </div>
       </div>
     </section>
 
     <!--FORMACION ACADEMICA-->
-    <section class="formacion__container" id="formacion">
-      <div class="container__formacion">
-        <div class="text__formacion">
-
-          <h2>Formacion Academica</h2>
-
-          <ul class="formacion__container__list">
-            <li class="formacion_items"> ISTL LIMON<img src="img/ISTL.png" alt="">DESARROLLO DE SOFTWARE
-              <br><br>Jun.2020 <br>↓<br> Oct.2023</li>
-            <li class="formacion_items">Alura Latam<img src="img/aluraLatam.png" alt=""> Oracle Next
-              Education<br><br>2024</li>
-          </ul>
+    <aside class="formacion__container" id="formacion">
+      <h2>Formación Académica</h2>
+      <div class="container row">
+        <div class="col-md-6">
+          <h3>Grado en Ingeniería Informática</h3>
+          <img src="img/ISTL.png" alt="Logo del isntituto superior tecnologico limon">
+          <p>2019 - 2023</p>
+          <p>Universidad de Granada</p>
+        </div>
+        <div class="col-md-6">
+          <h3>Grado en Ingeniería Informática</h3>
+          <img src="img/ISTL.png" alt="Logo del isntituto superior tecnologico limon">
+          <p>2019 - 2023</p>
+          <p>Universidad de Granada</p>
         </div>
       </div>
-    </section>
+    </aside>
+
 
     <!--proyectos --->
     <section id="projects" class="container__proyect">
@@ -119,30 +122,30 @@
 
           <!-- Alura Latam - AluraPlay -->
           <ul class="proyect__container__list">
-            <li class="experience_item">
-              <img src="img/aluraPlay.png" alt="">
-              <div class="experience_item_container">
-                <h3 class="experience_item_title">AluraPlay</h3>
+            <li class="proyect__item">
+              <img class="proyect__item__img" src="img/alura-play.png" alt="">
+              <div class="proyect__item__container">
+                <h3 class="proyect__item__title">AluraPlay</h3>
                 <p>Proyecto final de curso CSS_ Flexbox y layouts responsivos de la mano de Alura Latam.</p>
                 <p>Tecnologias utilizadas:
                   <br>
-                  <img src="img/html.png" alt="">
-                  <img src="img/css.png" alt="">
+                  <img  class="proyect__item__logo" src="img/html.png" alt="">
+                  <img  src="img/css.png" alt="">
                   <!-- <img src="img/js.png" alt=""> -->
                 </p>
-                <a class="btn_github" href="">Repositorio</a>
-                <a class="btn_demo" target="_blank" href="">Demo</a>
+                <a class="btn_github" target="_blank" href="https://github.com/anchundiatech/Alura_play" >Repositorio</a>
+                <a class="btn_demo" target="_blank" href="https://alura-play-gamma-inky.vercel.app/">Demo</a>
               </div>
             </li>
           </ul>
-    
+
 
           <!-- Alura Latam - Encriptador -->
           <ul class="proyect__container__list">
-            <li class="experience_item">
-              <img src="img/encriptador.png" alt="">
-              <div class="experience_item_container">
-                <h3 class="experience_item_title">Challenge Encriptador</h3>
+            <li class="proyect__item">
+              <img class="proyect__item__img" src="img/encrypt.png" alt=""> -->
+              <div class="proyect__item__container">
+                <h3 class="proyect__item__title">Challenge Encriptador</h3>
                 <p>Encriptar o desencriptar un mensaje dado.</p>
                 <p>Tecnologias utilizadas:
                   <br>
@@ -150,20 +153,20 @@
                   <img src="img/css.png" alt="">
                   <img src="img/js.png" alt="">
                 </p>
-                <a class="btn_github" href="https://github.com/LuisAngel96/barberia_alura">Repositorio</a>
-                <a class="btn_demo" target="_blank" href="https://luisangel96.github.io/barberia_alura/">Demo</a>
+                <a class="btn_github" href="https://github.com/anchundiatech/Encriptador_Alura">Repositorio</a>
+                <a class="btn_demo" target="_blank" href="https://encriptador-alura-tau.vercel.app/">Demo</a>
               </div>
             </li>
           </ul>
 
-       
+
 
           <!-- Alura Latam Juego numero secreto -->
           <ul class="proyect__container__list">
-            <li class="experience_item">
-              <img src="img/" alt="">
-              <div class="experience_item_container">
-                <h3 class="experience_item_title">Juego Numero Secreto</h3>
+            <li class="proyect__item">
+               <img class="proyect__item__img" src="img/juego-secreto.png" alt="">
+              <div class="proyect__item__container">
+                <h3 class="proyect__item__title">Juego Numero Secreto</h3>
                 <p>Proyecto realizado en la formación principiante en programación con JavaScript Alura Latam, el cual consistia en
                   realizar la logica para el Juego numero secreto.
                 </p>
@@ -173,27 +176,27 @@
                   <img src="img/css.png" alt="">
                   <img src="img/js.png" alt="">
                 </p>
-                <a class="btn_github" href="">Repositorio</a>
-                <a class="btn_demo" target="_blank" href="">Demo</a>
+                <a class="btn_github" target="_blank" href="https://github.com/anchundiatech/juego-secreto">Repositorio</a>
+                <a class="btn_demo" target="_blank" href="https://juego-secreto-eta.vercel.app/">Demo</a>
               </div>
             </li>
           </ul>
           <!-- Alura Latam - Barberia -->
           <ul class="proyect__container__list">
-            <li class="experience_item">
-              <img src="img/" alt="">
-              <div class="experience_item_container">
-                <h3 class="experience_item_title">Barberia Alura</h3>
+            <li class="proyect__item">
+               <img class="proyect__item__img" src="img/baberia.png" alt="">
+              <div class="proyect__item__container">
+                <h3 class="proyect__item__title">Barberia Alura</h3>
                 <p>Proyecto realizado en la formación principiante en programación de Alura Latam, el cual consistia en
                   realizar una pagina web para una barberia.</p>
                 <p>Tecnologias utilizadas:
                   <br>
-                  <img src="img/html.png" alt="">
+                  <img class="" src="img/html.png" alt="">
                   <img src="img/css.png" alt="">
                   <img src="img/js.png" alt="">
                 </p>
-                <a class="btn_github" href="">Repositorio</a>
-                <a class="btn_demo" target="_blank" href="">Demo</a>
+                <a class="btn_github" target="_blank" href="https://github.com/anchundiatech/baberia_alura">Repositorio</a>
+                <a class="btn_demo" target="_blank" href="https://baberia-alura.vercel.app/">Demo</a>
               </div>
             </li>
           </ul>
@@ -205,57 +208,57 @@
 
     <!-- Contact Section -->
 
-    <section id="contact" class="contact_section">
+    <section id="contact" class="container__contact">
 
-      <h2 class="contact_container_title">Contacto</h2>
+      <h2 class="container_title_contact">Contacto</h2>
 
       <div class="container row">
 
           <div class="info_container">
-              
+
               <img class="contact_img" src="img/contact.png" alt="">
               <h3>Información de contacto</h3>
 
               <div class="contact">
                   <div class="contact_item_container">
-                      <img src="img/email.png" alt="">
+
                       <p>alejodev2022@gmail.com</p>
                   </div>
 
                   <div class="contact_item_container">
-                      <img src="img/phone.png" alt="">
+
                       <p>(+593) 99 175 3022</p>
-                  </div>  
+                  </div>
               </div>
           </div>
 
-          <form class="form_container" onsubmit="validarCampos(event)">
+          <form class="form_container" onsubmit="return validateForm()">
 
               <div class="form_container_texts">
 
                   <label for="nombreapellido">Nombre y apellido</label>
                   <p id="alert_nombre" for="nombreapellido">El campo nombre esta vacio. Ingrese su nombre por favor</p>
-                  <input type="text" id="nombreapellido" class="input_padron">
+                  <input type="text" id="nombreapellido" class="input_padron" placeholder="Nombre y Apellido">
 
                   <label for="correoelectronico">Correo Electronico</label>
                   <p id="alert_correo" for="correoelectronico">El campo e-mail debe estar en el formato: email@dominio.com y no puede estar vacío.</p>
-                  <input type="email" id="correoelectronico" class="input_padron" placeholder="email@dominio.com"> 
+                  <input type="email" id="correoelectronico" class="input_padron" placeholder="email@ejemplo.com">
 
                   <label for="asunto">Asunto</label>
                   <p id="alert_asunto" for="asunto">El campo asunto está vacio.</p>
-                  <input type="asunto" id="text_asunto" class="input_padron">
+                  <input type="asunto" id="text_asunto" class="input_padron" placeholder="Asunto">
 
                   <label for="mensaje">Mensaje</label>
                   <p id="alert_msj" for="mensaje">El campo mensaje está vacio.</p>
-                  <textarea name="" id="mensaje" cols="5" rows="5" class="input_padron"></textarea>
-              
+                  <textarea name="" id="mensaje" cols="5" rows="5" class="input_padron" placeholder="Escriba su mensaje"></textarea>
+
               </div>
 
               <button type="submit" id="btn_enviar" class="enviarFormulario">Enviar Formulario</button>
 
           </form>
 
-          
+
       </div>
 
   </section>
@@ -265,7 +268,7 @@
 
 
   <footer class="rodapie">
-    <p>Desarrollado por Alejandro Anchundia</p>
+    <p>Desarrollado por Alejandro Anchundia &copy 2024</p>
   </footer>
 
 </body>
